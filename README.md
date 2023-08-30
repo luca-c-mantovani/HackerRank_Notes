@@ -1,2 +1,2 @@
-#HackerRank_Notes
-Code snippets from HackerRank Challenges
+# Coding Challenges
+Code snippets for doing coding challenges 
