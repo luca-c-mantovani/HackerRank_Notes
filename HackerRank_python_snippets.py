@@ -15,3 +15,10 @@ print(sum(x))
 #.update() adds an iterable object to the set
 #Shows some more basic set stuff
 
+#Boilerplate code for creating sets for an input
+#set size, create set, set size, create set
+size_a = int(input())
+a = set(map(int, input().split()))
+size_b = int(input())
+b = set(map(int, input().split()))
+
