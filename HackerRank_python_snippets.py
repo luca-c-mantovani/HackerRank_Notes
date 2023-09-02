@@ -22,3 +22,17 @@ a = set(map(int, input().split()))
 size_b = int(input())
 b = set(map(int, input().split()))
 
+#.symmetric_difference()
+#Sometimes, a ^ operator is used in place of the .symmetric_difference() tool, but it only operates on the set of elements in set.
+
+#Set Mutations
+#Learning different ways not to create a new set, but to change the set itself
+#Add given element to set
+.update() or |=
+#make the set become the instersection between the two sets
+.intersection_update() or &=
+#Remove the elements found in the given set/iterable
+.difference_update() or -=
+#make the set become the symmetric difference 
+.symmetric_difference_update() or ^=
+
