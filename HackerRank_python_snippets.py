@@ -36,3 +36,35 @@ b = set(map(int, input().split()))
 #make the set become the symmetric difference 
 .symmetric_difference_update() or ^=
 
+#Lists 
+#Snippet for a long command chain problem
+if __name__ == '__main__':
+    list = []
+    commands = []
+    N = int(input())
+    for x in range(N):
+        commands.append(input())
+    
+    for command in commands:
+        if "insert" in command:
+            insert_command = command.split()
+            list.insert(int(insert_command[1]), int(insert_command[2]))
+        elif "append" in command:
+            append_command = command.split()
+            list.append(int(append_command[1]))
+        elif "remove" in command:
+            remove_command = command.split()
+            list.remove(int(remove_command[1]))
+        elif command == "print":
+            print(list)
+        elif command == "sort":
+            list.sort()
+        elif command == "pop":
+            list.pop()
+        elif command == "reverse":
+            list.reverse()
+        elif command == "sort":
+            list.sort()
+        elif command == "reverse":
+            list.reverse()
+
