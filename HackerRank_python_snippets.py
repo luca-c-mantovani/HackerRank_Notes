@@ -35,6 +35,7 @@ b = set(map(int, input().split()))
 .difference_update() or -=
 #make the set become the symmetric difference 
 .symmetric_difference_update() or ^=
+#To create the command chain, the command "update" is found inside the other chains, what way can I differentiate this command?
 
 #Lists 
 #Snippet for a long command chain problem
