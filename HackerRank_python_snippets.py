@@ -36,6 +36,8 @@ b = set(map(int, input().split()))
 #make the set become the symmetric difference 
 .symmetric_difference_update() or ^=
 #To create the command chain, the command "update" is found inside the other chains, what way can I differentiate this command?
+#.startswith() string method checks whether the string is at the beginning of string, which solves this problem
+elif command.startswith("update") == True:
 
 #Lists 
 #Snippet for a long command chain problem
