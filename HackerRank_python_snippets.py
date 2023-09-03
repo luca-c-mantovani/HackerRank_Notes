@@ -94,4 +94,7 @@ Counter(myList).items()
 Counter(myList).keys()
 Counter(myList).values()
 
+#Check Subset
+#Find a way to check whether set A is a subset of set B
+
 
