@@ -73,7 +73,17 @@ for command in commands:
 
 #The Captain's Room
 #Wants to come up with a creative solution to solve this problem
-#Using a set to check membership
+#Did an unintended solution using the collections.Counter() to find the room with only one member
+#Made to think outside the box and not necessarily use the tools given
+
+#Function to find a key to a dictionary given its value 
+def get_key(val):
+    for key, value in rc.items():
+        if val == value:
+            return key
+    return "key doesn't exist"
+
+
 
 #collections.Counter()
 #A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
