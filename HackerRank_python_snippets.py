@@ -26,6 +26,7 @@ b = set(map(int, input().split()))
 #Sometimes, a ^ operator is used in place of the .symmetric_difference() tool, but it only operates on the set of elements in set.
 
 #Set Mutations
+#Similiar to the lists problem, very similiar solution
 #Learning different ways not to create a new set, but to change the set itself
 #Add given element to set
 .update() or |=
@@ -69,4 +70,18 @@ for command in commands:
         list.sort()
     elif command == "reverse":
         list.reverse()
+
+#The Captain's Room
+#Wants to come up with a creative solution to solve this problem
+#Using a set to check membership
+
+#collections.Counter()
+#A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
+from collections import Counter
+dict(Counter(myList))
+Counter(myList).items()
+>>> [(1, 3), (2, 4), (3, 4), (4, 2), (5, 1)]
+Counter(myList).keys()
+Counter(myList).values()
+
 
