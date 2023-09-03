@@ -1,5 +1,4 @@
-#First snippet
-#Connect a iterable of integers into a single line 
+#Connect an iterable of integers into a single line 
 values = ' '.join(str(v) for v in value_list)
 
 #Intro to Sets
@@ -119,7 +118,6 @@ for index, e in enumerate(range(N)):
     if index == (N-1):
         print("True")
 
-
-
-
-
+#DefaultDict Tutorial
+#It's similar to the usual dictionary (dict) container, but the only difference is that a defaultdict will have a default value if that key has not been set yet. 
+#Doesn't raise a Key Error if a value not inside dictionary is searched for 
