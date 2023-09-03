@@ -96,5 +96,12 @@ Counter(myList).values()
 
 #Check Subset
 #Find a way to check whether set A is a subset of set B
+#Use set method .issubset()
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b", "a"}
+print(x.issubset(y))
+>>> True 
+x.issubset(y)
+
 
 
