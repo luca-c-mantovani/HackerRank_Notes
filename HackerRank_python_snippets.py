@@ -108,7 +108,7 @@ x.issubset(y)
 a = set(map(int, input().split()))
 N = int(input())
 
-for i in range(N):
+for index, e in enumerate(range(N)):
     sub = set(map(int, input().split()))
     if a == sub:
         print("False")
@@ -116,8 +116,8 @@ for i in range(N):
     if not a.issuperset(sub):
         print("False")
         break
-    
-print("True")
+    if index == (N-1):
+        print("True")
 
 
 
