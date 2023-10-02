@@ -16,6 +16,8 @@ print(sum(x))
 
 #Boilerplate code for creating sets for an input
 #set size, create set, set size, create set
+#Also can trun a list of strings into integers
+
 size_a = int(input())
 a = set(map(int, input().split()))
 size_b = int(input())
@@ -102,6 +104,7 @@ print(x.issubset(y))
 >>> True 
 x.issubset(y)
 
+
 #Check Strict Superset
 #A strict superset is a set that contains all the elements of a sub set, but is not the exact same.
 a = set(map(int, input().split()))
@@ -121,3 +124,53 @@ for index, e in enumerate(range(N)):
 #DefaultDict Tutorial
 #It's similar to the usual dictionary (dict) container, but the only difference is that a defaultdict will have a default value if that key has not been set yet. 
 #Doesn't raise a Key Error if a value not inside dictionary is searched for 
+
+#Numpy Challenges
+#Arrays
+#To use NumPy (Numeric Python)
+import numpy
+#A NumPy array is a grid of values. They are similar to lists, except that every element of an array must be the same type.
+b = numpy.array([1,2,3,4,5],float)
+print b[1]   
+>>>> 2.0
+
+#How to reverse an array in numpy
+import numpy as np
+#The original NumPy array
+new_arr=np.array(['A','s','k','P','y','t','h','o','n'])
+print("Original Array is :",new_arr)
+ 
+#reversing using flip() Method
+res_arr=np.flip(new_arr)
+print("Resultant Reversed Array:",res_arr)
+
+#Shape and Reshape
+#Shape can get array dimensions and change array dimensions
+import numpy
+
+change_array = numpy.array([1,2,3,4,5,6])
+change_array.shape = (3, 2)
+print change_array    
+#Reshape creates a new array with desired dimensions without modifying the original array
+
+
+#Transpose
+#Transpose: create a transposition of an array
+#Flatten: flattens an array to 1D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
