@@ -1,2 +1,2 @@
 # Coding Challenges
-Code snippets for doing coding challenges 
+The Python Notebook contained here are code snippets for reference for me to use in the future from coding challengers I did for python on HackerRank. 
